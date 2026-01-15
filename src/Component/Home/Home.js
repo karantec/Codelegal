@@ -167,7 +167,7 @@ const HeroCarousel = () => {
 
   // Event handlers
   const handleStartCoding = () => {
-    console.log("Navigating to coding contest...");
+    window.location.href = "/compile";
   };
 
   const handleLearnMore = () => {
