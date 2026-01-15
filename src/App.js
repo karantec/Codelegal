@@ -25,6 +25,7 @@ import OurWorkVideo from "./Component/Home/OurWorkVideo";
 import Work from "./Component/Home/Work";
 import Schedule from "./Component/Home/Schedule";
 import CTAFooterSection from "./Component/Home/Footer";
+import Compiler from "./Component/compiler";
 
 const App = () => {
   return (
@@ -50,6 +51,7 @@ const App = () => {
         <Route path="/zip" element={<ProductCards />} />
         <Route path="/contact" element={<ContactSection />} />
         <Route path="/products" element={<Products />} />
+        <Route path="/compile" element={<Compiler />} />
       </Routes>
       <CTAFooterSection />
     </div>
