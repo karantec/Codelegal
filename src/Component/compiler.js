@@ -1,6 +1,7 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useCallback } from "react";
 import Editor from "@monaco-editor/react";
 import { runCode } from "../services/piston";
+import { runJava, runJavaJDoodle } from "../services/java.jdoodle";
 
 const LANGUAGES = [
   {
@@ -18,15 +19,14 @@ int main() {
   },
   {
     name: "Java",
-    piston: "java",
-    version: "17.0.2",
     monaco: "java",
-    template: `class Main {
+    template: `public class Main {
     public static void main(String[] args) {
         System.out.println("Hello World");
     }
 }`,
   },
+
   {
     name: "Python",
     piston: "python",
@@ -45,41 +45,51 @@ int main() {
 
 export default function Compiler() {
   const [language, setLanguage] = useState(LANGUAGES[0]);
-  const [code, setCode] = useState(language.template);
+  const [code, setCode] = useState(LANGUAGES[0].template);
   const [input, setInput] = useState("");
   const [output, setOutput] = useState("");
   const [loading, setLoading] = useState(false);
 
-  const run = async () => {
+  // ✅ useCallback FIX
+  const run = useCallback(async () => {
     setLoading(true);
     setOutput("Running...");
+
     try {
+      // 🔥 JAVA → BACKEND → JDoodle
+      if (language.name === "Java") {
+        const res = await runJava(code, input);
+
+        if (res.error) {
+          setOutput("Error:\n" + res.error);
+        } else if (res.output) {
+          setOutput(res.output);
+        } else {
+          setOutput("No output");
+        }
+
+        return;
+      }
+
+      // ⚡ OTHER LANGUAGES → PISTON
       const res = await runCode(language.piston, language.version, code, input);
 
       if (res.compile?.output) {
         setOutput("Compilation Error:\n" + res.compile.output);
       } else if (res.run?.stderr) {
         setOutput("Runtime Error:\n" + res.run.stderr);
-      } else if (res.run?.output) {
-        setOutput(res.run.output.trim());
+      } else if (res.run?.stdout) {
+        setOutput(res.run.stdout);
       } else {
         setOutput("No output");
       }
-    } catch {
+    } catch (err) {
+      console.error(err);
       setOutput("Execution failed");
+    } finally {
+      setLoading(false);
     }
-    setLoading(false);
-  };
-
-  // Ctrl + Enter
-  useEffect(() => {
-    const handler = (e) => {
-      if (e.ctrlKey && e.key === "Enter") run();
-    };
-    window.addEventListener("keydown", handler);
-    return () => window.removeEventListener("keydown", handler);
-  });
-
+  }, [language, code, input]);
   return (
     <div className="h-screen flex flex-col">
       {/* Toolbar */}
@@ -94,7 +104,9 @@ export default function Compiler() {
           }}
         >
           {LANGUAGES.map((l) => (
-            <option key={l.name}>{l.name}</option>
+            <option key={l.name} value={l.name}>
+              {l.name}
+            </option>
           ))}
         </select>
 

@@ -1,6 +1,13 @@
 const API_URL = "https://emkc.org/api/v2/piston/execute";
 
 export async function runCode(language, version, code, input) {
+  // 🔒 FORCE SUPPORTED JAVA VERSION
+  if (language === "java") {
+    version = "17.0.1";
+  }
+
+  console.log("PISTON REQUEST:", { language, version });
+
   const res = await fetch(API_URL, {
     method: "POST",
     headers: { "Content-Type": "application/json" },
