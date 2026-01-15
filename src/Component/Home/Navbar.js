@@ -18,10 +18,15 @@ const Navbar = ({ activeTab, setActiveTab, user, notifications = 3 }) => {
   const [isNotificationOpen, setIsNotificationOpen] = useState(false);
 
   const navItems = [
-    { id: "home", label: "Home", icon: Home },
-    { id: "contests", label: "Contests", icon: Trophy },
-    { id: "assessments", label: "OA Portal", icon: BookOpen },
-    { id: "dashboard", label: "Dashboard", icon: User },
+    { id: "home", label: "Home", icon: Home, path: "/" },
+    { id: "contests", label: "Contests", icon: Trophy, path: "/contests" },
+    {
+      id: "assessments",
+      label: "OA Portal",
+      icon: BookOpen,
+      path: "/assessments",
+    },
+    { id: "dashboard", label: "Dashboard", icon: User, path: "/dashboard" },
   ];
 
   const mockNotifications = [
@@ -55,13 +60,28 @@ const Navbar = ({ activeTab, setActiveTab, user, notifications = 3 }) => {
     role: "Participant",
   };
 
+  const handleNavigation = (item) => {
+    // Only call setActiveTab if it's provided as a prop
+    if (setActiveTab && typeof setActiveTab === "function") {
+      setActiveTab(item.id);
+    }
+
+    // Navigate to the path
+    if (item.path) {
+      window.location.href = item.path;
+    }
+  };
+
   return (
     <nav className="bg-gradient-to-r from-indigo-600 via-purple-600 to-indigo-700 text-white shadow-xl relative z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo and Brand */}
           <div className="flex items-center space-x-4">
-            <div className="flex items-center space-x-3">
+            <div
+              className="flex items-center space-x-3 cursor-pointer"
+              onClick={() => (window.location.href = "/home")}
+            >
               <div className="relative">
                 <Shield className="h-8 w-8 text-white" />
                 <div className="absolute -top-1 -right-1 w-3 h-3 bg-green-400 rounded-full animate-pulse"></div>
@@ -90,7 +110,7 @@ const Navbar = ({ activeTab, setActiveTab, user, notifications = 3 }) => {
             {navItems.map((item) => (
               <button
                 key={item.id}
-                onClick={() => setActiveTab(item.id)}
+                onClick={() => handleNavigation(item)}
                 className={`flex items-center space-x-2 px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 ${
                   activeTab === item.id
                     ? "bg-white bg-opacity-20 text-white shadow-lg transform scale-105"
@@ -242,7 +262,7 @@ const Navbar = ({ activeTab, setActiveTab, user, notifications = 3 }) => {
                 <button
                   key={item.id}
                   onClick={() => {
-                    setActiveTab(item.id);
+                    handleNavigation(item);
                     setIsMobileMenuOpen(false);
                   }}
                   className={`flex items-center space-x-3 w-full px-4 py-3 rounded-lg text-sm font-medium transition-colors ${
@@ -283,4 +303,5 @@ const Navbar = ({ activeTab, setActiveTab, user, notifications = 3 }) => {
     </nav>
   );
 };
+
 export default Navbar;
