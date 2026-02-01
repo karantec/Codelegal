@@ -1,12 +1,6 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 
 const CTAFooterSection = () => {
-  const [isVisible, setIsVisible] = useState(false);
-
-  useEffect(() => {
-    setIsVisible(true);
-  }, []);
-
   const footerLinks = {
     Platform: ["Features", "Security", "API", "Integrations"],
     Solutions: ["For Companies", "For Contests", "For Schools", "Enterprise"],
