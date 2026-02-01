@@ -2,7 +2,6 @@ import React from "react";
 
 import Navbar from "./Component/Home/Navbar";
 import { Route, Routes } from "react-router-dom";
-import Footer from "./Component/Home/Footer";
 
 // import NotFound from './Component/Home/Home'
 
