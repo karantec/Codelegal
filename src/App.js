@@ -25,6 +25,7 @@ import Work from "./Component/Home/Work";
 import Schedule from "./Component/Home/Schedule";
 import CTAFooterSection from "./Component/Home/Footer";
 import Compiler from "./Component/compiler";
+import DSAStudyPlanner from "./Component/Home/DSAStudyPlanner";
 
 const App = () => {
   return (
@@ -32,6 +33,7 @@ const App = () => {
       <Navbar />
       <Routes>
         <Route path="/" element={<MainPage />} />
+        <Route path="/DSA" element={<DSAStudyPlanner />} />
         <Route path="/about" element={<AboutUs />} />
         <Route path="/testimonial" element={<TestimonialsPage />} />
         <Route path="/career" element={<Career />} />
