@@ -64,9 +64,7 @@ const CTAFooterSection = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-12 mb-12">
             {/* Brand */}
             <div className="lg:col-span-2">
-              <h3 className="text-2xl font-bold text-white mb-4">
-                Code Legal
-              </h3>
+              <h3 className="text-2xl font-bold text-white mb-4">Code Legal</h3>
               <p className="text-blue-200 max-w-md">
                 The world's most secure coding assessment platform.
               </p>
@@ -75,9 +73,7 @@ const CTAFooterSection = () => {
             {/* Links */}
             {Object.entries(footerLinks).map(([category, links]) => (
               <div key={category}>
-                <h4 className="text-white font-semibold mb-4">
-                  {category}
-                </h4>
+                <h4 className="text-white font-semibold mb-4">{category}</h4>
                 <ul className="space-y-3">
                   {links.map((link) => (
                     <li key={link}>
@@ -97,7 +93,7 @@ const CTAFooterSection = () => {
           {/* Bottom */}
           <div className="border-t border-gray-700 pt-8 flex flex-col md:flex-row justify-between items-center">
             <p className="text-blue-200 text-sm mb-4 md:mb-0">
-              © 2025 Code Legal. All rights reserved.
+              © 2026 Code Legal. All rights reserved.
             </p>
 
             <div className="flex space-x-6">

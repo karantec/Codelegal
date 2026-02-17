@@ -903,8 +903,12 @@ function TreesTable() {
       c: "Fundamental tree concepts",
       r: (
         <>
-          <ResourceLink href="#">📋 Video</ResourceLink>
-          <ResourceLink href="#">📋 DOC</ResourceLink>
+          <ResourceLink href="https://drive.google.com/file/d/1QsrOkTm1xPbRtMC0T78hPF6iXWkfOn1q/view?usp=sharing">
+            📋 Video
+          </ResourceLink>
+          <ResourceLink href="https://docs.google.com/document/d/1S8zLM0nvHY3OrIUwTjJAkg6misgu7CjIbIqYPMtdbnY/edit">
+            📋 DOC
+          </ResourceLink>
         </>
       ),
     },
@@ -913,8 +917,12 @@ function TreesTable() {
       c: "Advanced tree traversal",
       r: (
         <>
-          <ResourceLink href="#">📋 Video</ResourceLink>
-          <ResourceLink href="#">📋 DOC</ResourceLink>
+          <ResourceLink href="https://drive.google.com/file/d/1I8nsaqmppLqep38pzoShu44Kh-TWdulx/view?usp=sharing">
+            📋 Video
+          </ResourceLink>
+          <ResourceLink href="https://docs.google.com/document/d/11_n4swLlRGHHgVzZV9BCgpjZ5mpY5BHLuS1gp7PTazk/edit">
+            📋 DOC
+          </ResourceLink>
         </>
       ),
     },
