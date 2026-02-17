@@ -33,7 +33,7 @@ const App = () => {
       <Navbar />
       <Routes>
         <Route path="/" element={<MainPage />} />
-        <Route path="/DSA" element={<DSAStudyPlanner />} />
+        <Route path="/kumarkdsasheet" element={<DSAStudyPlanner />} />
         <Route path="/about" element={<AboutUs />} />
         <Route path="/testimonial" element={<TestimonialsPage />} />
         <Route path="/career" element={<Career />} />

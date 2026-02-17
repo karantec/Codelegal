@@ -838,8 +838,12 @@ function MathTable() {
       c: "Intro 1",
       r: (
         <>
-          <ResourceLink href="#">📋 Video</ResourceLink>
-          <ResourceLink href="#">📋 DOC</ResourceLink>
+          <ResourceLink href="https://drive.google.com/file/d/1ThcGpV6DVjrXG_J5sgsFKw6CN4a5FFkV/view?usp=sharing">
+            📋 Video
+          </ResourceLink>
+          <ResourceLink href="https://docs.google.com/document/d/15ZFZuxIGZgwbrT9NeBfUT00c-6KMjpuN-M7JRl8HFVI/edit?usp=sharing">
+            📋 DOC
+          </ResourceLink>
         </>
       ),
     },
@@ -848,9 +852,15 @@ function MathTable() {
       c: "Codechef Contest P0, P1",
       r: (
         <>
-          <ResourceLink href="#">📋 Video 1</ResourceLink>
-          <ResourceLink href="#">📋 Video 2</ResourceLink>
-          <ResourceLink href="#">📋 DOC</ResourceLink>
+          <ResourceLink href="https://drive.google.com/file/d/1ginV-ZWVf-iE_KBSRWeWaoMhnER0hTq0/view?usp=sharing">
+            📋 Video 1
+          </ResourceLink>
+          <ResourceLink href="https://drive.google.com/file/d/1w6MQnIwMLYmFgq7SM04brNFxm7sAGKBd/view?usp=sharing">
+            📋 Video 2
+          </ResourceLink>
+          <ResourceLink href="https://docs.google.com/document/d/15ZFZuxIGZgwbrT9NeBfUT00c-6KMjpuN-M7JRl8HFVI/edit?usp=sharing">
+            📋 DOC
+          </ResourceLink>
         </>
       ),
     },
@@ -859,10 +869,18 @@ function MathTable() {
       c: "Google SDE-2 Interview",
       r: (
         <>
-          <ResourceLink href="#">📋 Video 1</ResourceLink>
-          <ResourceLink href="#">📋 Video 2</ResourceLink>
-          <ResourceLink href="#">📋 Video 3</ResourceLink>
-          <ResourceLink href="#">📋 DOC</ResourceLink>
+          <ResourceLink href="https://drive.google.com/file/d/1_85y4J9Qz4Nbm9M5Y3_j0TvcvNfBImoX/view?usp=sharing">
+            📋 Video 1
+          </ResourceLink>
+          <ResourceLink href="https://drive.google.com/file/d/1eKbOeqZJTuA373LPW8RkVEJAy5TDEd0S/view?usp=sharing">
+            📋 Video 2
+          </ResourceLink>
+          <ResourceLink href="https://drive.google.com/file/d/15je83OPb5H1Frc91tQ6CxNcun38rQlbX/view?usp=sharing">
+            📋 Video 3
+          </ResourceLink>
+          <ResourceLink href="https://docs.google.com/document/d/1lL9K7c5REKXIl6PKm7AV__hH5n6jU5B8XJTNus9Km5s/edit?tab=t.0">
+            📋 DOC
+          </ResourceLink>
         </>
       ),
     },
@@ -931,8 +949,12 @@ function TreesTable() {
       c: "Google SWE Intern OA",
       r: (
         <>
-          <ResourceLink href="#">📋 Video</ResourceLink>
-          <ResourceLink href="#">📋 DOC</ResourceLink>
+          <ResourceLink href="https://drive.google.com/file/d/1Sa1XGzsWO-l2avRs4L02al04abY7KCnQ/view?usp=sharing">
+            📋 Video
+          </ResourceLink>
+          <ResourceLink href="https://docs.google.com/document/d/1yV1H5gJBn7SVYXiWOLL_kSWHZA-2bDrjjyF8MLRMW_I/edit?tab=t.0">
+            📋 DOC
+          </ResourceLink>
         </>
       ),
     },
@@ -941,8 +963,12 @@ function TreesTable() {
       c: "Tree optimization techniques",
       r: (
         <>
-          <ResourceLink href="#">📋 Video</ResourceLink>
-          <ResourceLink href="#">📋 DOC</ResourceLink>
+          <ResourceLink href="https://drive.google.com/file/d/1XxylhrHq02FVYXna66dj5FnUN75SNAjG/view?usp=sharing">
+            📋 Video
+          </ResourceLink>
+          <ResourceLink href="https://docs.google.com/document/d/11_n4swLlRGHHgVzZV9BCgpjZ5mpY5BHLuS1gp7PTazk/edit">
+            📋 DOC
+          </ResourceLink>
         </>
       ),
     },
@@ -951,8 +977,12 @@ function TreesTable() {
       c: "VmWare OA",
       r: (
         <>
-          <ResourceLink href="#">📋 Video</ResourceLink>
-          <ResourceLink href="#">📋 DOC</ResourceLink>
+          <ResourceLink href="https://drive.google.com/file/d/1JodwZaaFIYxXsg6qVbMVg_vz7HcfnNzd/view?usp=sharing">
+            📋 Video
+          </ResourceLink>
+          <ResourceLink href="https://docs.google.com/document/d/1e3HmIlhVlT4-WEzNy5TMb0k3DLW6jZdOzy584guWgyw/edit">
+            📋 DOC
+          </ResourceLink>
         </>
       ),
     },
