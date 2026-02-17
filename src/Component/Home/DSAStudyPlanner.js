@@ -1,4 +1,5 @@
 import { useState } from "react";
+import SuccessVideos from "./SuccessVideo";
 
 // ─── Shared styles ────────────────────────────────────────────────────────────
 const thStyle = {
@@ -1316,7 +1317,6 @@ export default function DSAStudyPlanner() {
               DSA Curriculum
             </div>
           </div>
-
           <h1
             style={{
               fontSize: "clamp(28px,4vw,42px)",
@@ -1329,21 +1329,102 @@ export default function DSAStudyPlanner() {
               WebkitTextFillColor: "transparent",
             }}
           >
-            DSA Study Planner
+            Kumar K DSA + OA + CP sheet
           </h1>
+          <div className="max-w-4xl mx-auto text-center py-12 px-6">
+            <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
+              Built After Deep Industry-Level Analysis
+            </h2>
 
-          <p
-            style={{
-              fontSize: "15px",
-              color: "#64748b",
-              maxWidth: "520px",
-              lineHeight: 1.7,
-            }}
-          >
-            Structured sessions covering every critical algorithm topic — from
-            foundational concepts to FAANG-level interview preparation.
-          </p>
+            <p className="text-gray-300 text-lg leading-relaxed">
+              This sheet has been meticulously curated after an in-depth
+              analysis of
+              <span className="text-white font-semibold">
+                {" "}
+                Online Assessments and Interview questions{" "}
+              </span>
+              asked at leading product-based companies such as
+              <span className="text-white font-semibold">
+                {" "}
+                Amazon, Google, Microsoft, Apple{" "}
+              </span>
+              and many more for the 2025–2026 hiring cycles.
+            </p>
 
+            <p className="text-gray-400 text-lg leading-relaxed mt-6">
+              Additionally, recent trends and patterns observed in
+              <span className="text-white font-semibold">
+                {" "}
+                Codeforces and LeetCode contests{" "}
+              </span>
+              have been carefully studied and incorporated to ensure this sheet
+              aligns with current competitive programming and hiring standards.
+            </p>
+          </div>
+          <div className="max-w-2xl mx-auto mt-10">
+            <div
+              className="bg-white/10 backdrop-blur-lg border border-white/20 
+                  shadow-2xl rounded-2xl p-8 
+                  transition-all duration-300 hover:shadow-purple-500/20"
+            >
+              <h2 className="text-xl font-semibold text-white mb-6">
+                🚀 This sheet will help you achieve:
+              </h2>
+
+              <ol className="space-y-4">
+                <li className="flex items-start gap-3 text-gray-200">
+                  <span
+                    className="flex items-center justify-center 
+                         w-7 h-7 rounded-full 
+                         bg-gradient-to-r from-purple-500 to-indigo-500 
+                         text-white text-sm font-semibold"
+                  >
+                    1
+                  </span>
+                  <span>
+                    <span className="font-medium text-white">
+                      DSA prep for Interview
+                    </span>{" "}
+                    <span className="text-gray-400">(till MAANG level)</span>
+                  </span>
+                </li>
+
+                <li className="flex items-start gap-3 text-gray-200">
+                  <span
+                    className="flex items-center justify-center 
+                         w-7 h-7 rounded-full 
+                         bg-gradient-to-r from-purple-500 to-indigo-500 
+                         text-white text-sm font-semibold"
+                  >
+                    2
+                  </span>
+                  <span>
+                    <span className="font-medium text-white">
+                      DSA prep for OA
+                    </span>{" "}
+                    <span className="text-gray-400">(till MAANG level)</span>
+                  </span>
+                </li>
+
+                <li className="flex items-start gap-3 text-gray-200">
+                  <span
+                    className="flex items-center justify-center 
+                         w-7 h-7 rounded-full 
+                         bg-gradient-to-r from-purple-500 to-indigo-500 
+                         text-white text-sm font-semibold"
+                  >
+                    3
+                  </span>
+                  <span>
+                    <span className="font-medium text-white">
+                      DSA prep for CP
+                    </span>
+                  </span>
+                </li>
+              </ol>
+            </div>
+          </div>
+          <SuccessVideos />
           <div
             style={{
               display: "flex",
