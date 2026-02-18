@@ -154,13 +154,13 @@ function HashingTable() {
             content="Hashing Part 0, 1, 2"
             resources={
               <>
-                <ResourceLink href="https://drive.google.com/file/d/10ZssTVcwkRdsoGlZFPHBXvVZa6OROky8/view">
+                <ResourceLink href="https://drive.google.com/file/d/10ZssTVcwkRdsoGlZFPHBXvVZa6OROky8/view?usp=sharing">
                   📹 Part 0
                 </ResourceLink>
-                <ResourceLink href="https://drive.google.com/file/d/1BEv_Ew72EPjLBV6XX6d2QvMF-hjfIkAI/view">
+                <ResourceLink href="https://drive.google.com/file/d/1BEv_Ew72EPjLBV6XX6d2QvMF-hjfIkAI/view?usp=sharing">
                   📹 Part 1
                 </ResourceLink>
-                <ResourceLink href="https://drive.google.com/file/d/15hLKYt41unWwucyIBHNgR4IzVUKpVAsS/view">
+                <ResourceLink href="https://drive.google.com/file/d/15hLKYt41unWwucyIBHNgR4IzVUKpVAsS/view?usp=sharing">
                   📹 Part 2
                 </ResourceLink>
                 <ResourceLink href="https://www.desiqna.in/hashing+find+frequency+of+each+number+in+the+array">
@@ -174,11 +174,74 @@ function HashingTable() {
             content="Concept Building Sessions"
             resources={
               <>
-                {[0, 1, 2, 3, 4, 5, 6, 7, 8, 9].map((n) => (
-                  <ResourceLink key={n} href="#">
-                    📋 Session-{n}
-                  </ResourceLink>
-                ))}
+                <ResourceLink href="https://drive.google.com/file/d/1QNE9TATnD9eIHnFll_ZTltVoL2_B1Zyy/view?usp=sharing">
+                  📹 Session 0
+                </ResourceLink>
+                <ResourceLink href="https://docs.google.com/document/d/1svi0CZMqjOu7bFeXyEBZXzHQL9Ioj7NYKLlUVbbi-mA/edit?usp=sharing">
+                  📹 Doc
+                </ResourceLink>
+                <ResourceLink href="https://drive.google.com/file/d/1os2tLrBKliAzT09iroPR-TMIH6sLG8pL/view?usp=sharing">
+                  📹 Session 1
+                </ResourceLink>
+                <ResourceLink href="https://docs.google.com/document/d/1sBunPG4Y5wSnggKrzYQoqoDH18mIO9RNOT8i5iBiiIw/edit">
+                  📖 Document
+                </ResourceLink>
+
+                <ResourceLink href="https://drive.google.com/file/d/1cT05uj3MpilzNjSlHxCN9uhBihDT-l8h/view?usp=sharing">
+                  📹 Session 2
+                </ResourceLink>
+                <ResourceLink href="https://docs.google.com/document/d/1Lo3eJw_OClfI_RcMdTxpipbqmU6oCLALwkDx_RvhbgA/edit">
+                  📖 Document
+                </ResourceLink>
+
+                <ResourceLink href="https://drive.google.com/file/d/1cT05uj3MpilzNjSlHxCN9uhBihDT-l8h/view?usp=sharing">
+                  📹 Session 3
+                </ResourceLink>
+                <ResourceLink href="https://docs.google.com/document/d/1Lo3eJw_OClfI_RcMdTxpipbqmU6oCLALwkDx_RvhbgA/edit">
+                  📖 Document
+                </ResourceLink>
+
+                <ResourceLink href="https://drive.google.com/file/d/1HGgw1Ai-UBUGiY1LY56sfyJwZseFJh7i/view?usp=sharing">
+                  📹 Session 4
+                </ResourceLink>
+                <ResourceLink href="https://docs.google.com/document/d/1r1akupfvnfVn--rgHCPfCGZGYG5XZCN-rg1gIBSzWEw/edit?usp=sharing">
+                  📖 Document
+                </ResourceLink>
+
+                <ResourceLink href="https://drive.google.com/file/d/1auLfh6Rd-LnkebI-DHnJnF7dz4W4hH_w/view?usp=sharing">
+                  📹 Session 5
+                </ResourceLink>
+                <ResourceLink href="https://docs.google.com/document/d/1G1F6qVpFTFdS7c_ddb5cYm26q3lxBzuAxEtVWcFNIT4/edit">
+                  📖 Document
+                </ResourceLink>
+
+                <ResourceLink href="https://drive.google.com/file/d/1ut5z5HKE-onUp_lViNTchIxDKWFeO5cd/view?usp=sharing">
+                  📹 Session 6
+                </ResourceLink>
+                <ResourceLink href="https://docs.google.com/document/d/1EOchH89jMwwIPaQqN0jvdt9hMBmEa52sw1pJ8EEA_6s/edit?usp=sharing">
+                  📖 Document
+                </ResourceLink>
+
+                <ResourceLink href="https://drive.google.com/file/d/1gJAUTPxdk7CezMuDwR_MLNG8h8Gc8_70/view?usp=sharing">
+                  📹 Session 7
+                </ResourceLink>
+                <ResourceLink href="https://docs.google.com/document/d/1O1wYQQsBsQ51d1OTdPMDJ-OidvMqUpwEw3AT0LjePBk/edit?usp=sharing">
+                  📖 Document
+                </ResourceLink>
+
+                <ResourceLink href="https://drive.google.com/file/d/1gJAUTPxdk7CezMuDwR_MLNG8h8Gc8_70/view?usp=sharing">
+                  📹 Session 8
+                </ResourceLink>
+                <ResourceLink href="https://docs.google.com/document/d/1O1wYQQsBsQ51d1OTdPMDJ-OidvMqUpwEw3AT0LjePBk/edit?usp=sharing">
+                  📖 Document
+                </ResourceLink>
+
+                <ResourceLink href="https://drive.google.com/file/d/1N029UPbaYD6h9ldAI3KbcgRGC56_Qqcc/view?usp=sharing">
+                  📹 Session 9
+                </ResourceLink>
+                <ResourceLink href="https://docs.google.com/document/d/1AIVgmLNL4VqqHSSemSG387Aib20dTy-aOvJRFpPTMYY/edit?usp=sharing">
+                  📖 Document
+                </ResourceLink>
               </>
             }
           />
@@ -187,9 +250,15 @@ function HashingTable() {
             content="Amazon OA Session"
             resources={
               <>
-                <ResourceLink href="#">📹 Part 1</ResourceLink>
-                <ResourceLink href="#">📹 Part 2</ResourceLink>
-                <ResourceLink href="#">📋 DOC</ResourceLink>
+                <ResourceLink href="https://drive.google.com/file/d/1EzytoA4HYSyl089CXXi2iRGnGdVEOVrD/view?usp=sharing">
+                  📹 Part 1
+                </ResourceLink>
+                <ResourceLink href="https://drive.google.com/file/d/1ycnifnkUPwNd1LK-WVShouMr8-egcUi6/view?usp=sharing">
+                  📹 Part 2
+                </ResourceLink>
+                <ResourceLink href="https://docs.google.com/document/d/1FqaW_z9jDbabEoFFBHrgcV5Ve4YyLOfjCmttwnbHSTM/edit">
+                  📋 DOC
+                </ResourceLink>
               </>
             }
           />
@@ -198,8 +267,12 @@ function HashingTable() {
             content="Zscaler OA"
             resources={
               <>
-                <ResourceLink href="#">📋 Video</ResourceLink>
-                <ResourceLink href="#">📋 DOC</ResourceLink>
+                <ResourceLink href="https://drive.google.com/file/d/1cf6N0YrRrP4vvtt8efeLOCrIQtCJubY6/view?usp=sharing">
+                  📋 Video
+                </ResourceLink>
+                <ResourceLink href="https://docs.google.com/document/d/1k0mOvFj-PT6LvbUjTrw9O-u7lHAMrAUMu2vE7VLp5F0/edit?tab=t.0">
+                  📋 DOC
+                </ResourceLink>
               </>
             }
           />
@@ -208,9 +281,18 @@ function HashingTable() {
             content="Interview Level"
             resources={
               <>
-                <ResourceLink href="#">📋 Video</ResourceLink>
-                <ResourceLink href="#">📋 Doc 1</ResourceLink>
-                <ResourceLink href="#">📋 Doc 2</ResourceLink>
+                <ResourceLink href="https://drive.google.com/file/d/1iRQbeMoClzTaIC50IUBV5RngIoPvLgse/view?usp=share_link">
+                  📋 Video
+                </ResourceLink>
+                <ResourceLink href="https://www.geeksforgeeks.org/find-frequency-number-array/">
+                  📋 Doc 1
+                </ResourceLink>
+                <ResourceLink href="https://leetcode.com/problems/two-sum/">
+                  📋 Doc 1
+                </ResourceLink>
+                <ResourceLink href="https://www.spoj.com/problems/CSUMQ/">
+                  📋 Doc 2
+                </ResourceLink>
               </>
             }
           />
@@ -219,24 +301,44 @@ function HashingTable() {
             content="Interview Level"
             resources={
               <>
-                <ResourceLink href="#">📋 Video</ResourceLink>
-                <ResourceLink href="#">📋 DOC1</ResourceLink>
-                <ResourceLink href="#">📋 DOC2</ResourceLink>
+                <ResourceLink href="https://drive.google.com/file/d/1u8dK-graN6n8YEjF1phAsMzxmiftTDVT/view?usp=share_link">
+                  📋 Video
+                </ResourceLink>
+                <ResourceLink href="https://www.geeksforgeeks.org/maximum-distance-two-occurrences-element-array/">
+                  📋 DOC1
+                </ResourceLink>
+                <ResourceLink href="https://leetcode.com/problems/first-unique-character-in-a-string/">
+                  📋 DOC2
+                </ResourceLink>
+                <ResourceLink href="https://leetcode.com/problems/find-common-characters/">
+                  📋 DOC2
+                </ResourceLink>
               </>
             }
           />
           <TableRow
             session="Recap"
             content="Recap Session"
-            resources={<ResourceLink href="#">📋 Video</ResourceLink>}
+            resources={
+              <ResourceLink href="https://drive.google.com/file/d/1qIJt-TEZojMSZNoqsFcnQ9FXQgMFjhu8/view?usp=sharing">
+                📋 Video
+              </ResourceLink>
+            }
           />
           <TableRow
             session="Session 14"
             content="Interview Level"
             resources={
               <>
-                <ResourceLink href="#">📋 Video</ResourceLink>
-                <ResourceLink href="#">📋 DOC</ResourceLink>
+                <ResourceLink href="https://drive.google.com/file/d/1pAqqZy5DeYYEIUDJxFmNkmbQREEpkJaA/view?usp=share_link">
+                  📋 Video
+                </ResourceLink>
+                <ResourceLink href="https://leetcode.com/problems/longest-consecutive-sequence/">
+                  📋 DOC
+                </ResourceLink>
+                <ResourceLink href="https://www.geeksforgeeks.org/find-the-largest-subarray-with-0-sum/">
+                  📋 DOC
+                </ResourceLink>
               </>
             }
           />
@@ -245,8 +347,12 @@ function HashingTable() {
             content="Interview Level"
             resources={
               <>
-                <ResourceLink href="#">📋 Video</ResourceLink>
-                <ResourceLink href="#">📋 DOC</ResourceLink>
+                <ResourceLink href="https://drive.google.com/file/d/1XzfnzJtiAeEHpQR0NQuqHDOEaBTUZm8J/view?usp=sharing">
+                  📋 Video
+                </ResourceLink>
+                <ResourceLink href="https://leetcode.com/problems/count-number-of-pairs-with-absolute-difference-k/description/">
+                  📋 DOC
+                </ResourceLink>
               </>
             }
           />
@@ -255,8 +361,15 @@ function HashingTable() {
             content="Interview Level"
             resources={
               <>
-                <ResourceLink href="#">📋 Video</ResourceLink>
-                <ResourceLink href="#">📋 DOC</ResourceLink>
+                <ResourceLink href="https://drive.google.com/file/d/1N029UPbaYD6h9ldAI3KbcgRGC56_Qqcc/view?usp=sharing">
+                  📋 Video
+                </ResourceLink>
+                <ResourceLink href="https://drive.google.com/file/d/1N029UPbaYD6h9ldAI3KbcgRGC56_Qqcc/view?usp=sharing">
+                  📋 Doc
+                </ResourceLink>
+                <ResourceLink href="https://www.geeksforgeeks.org/count-number-subarrays-given-xor/">
+                  📋 DOC
+                </ResourceLink>
               </>
             }
           />
@@ -265,8 +378,12 @@ function HashingTable() {
             content="Hashing · Prefix Sum · Suffix Sum"
             resources={
               <>
-                <ResourceLink href="#">📋 Video</ResourceLink>
-                <ResourceLink href="#">📋 Doc</ResourceLink>
+                <ResourceLink href="https://drive.google.com/file/d/1fXzb7EMA72N4SSoRmVSnm0kaheg9BEnI/view?usp=sharing">
+                  📋 Video
+                </ResourceLink>
+                <ResourceLink href="https://docs.google.com/document/d/1AIVgmLNL4VqqHSSemSG387Aib20dTy-aOvJRFpPTMYY/edit?usp=sharing">
+                  📋 Doc
+                </ResourceLink>
               </>
             }
           />
@@ -275,8 +392,12 @@ function HashingTable() {
             content="Amazon OA 2025 P1"
             resources={
               <>
-                <ResourceLink href="#">📋 Video</ResourceLink>
-                <ResourceLink href="#">📋 Doc</ResourceLink>
+                <ResourceLink href="https://drive.google.com/file/d/1fXzb7EMA72N4SSoRmVSnm0kaheg9BEnI/view?usp=sharing">
+                  📋 Video
+                </ResourceLink>
+                <ResourceLink href="https://docs.google.com/document/d/1KvjLTpkL1NtQ4ZdkFpWQr1yfWoeW1J3jb1WH4oFTWTc/edit?tab=t.0">
+                  📋 Doc
+                </ResourceLink>
               </>
             }
           />
@@ -285,9 +406,15 @@ function HashingTable() {
             content="Hashing · Prefix Sum · Suffix Sum"
             resources={
               <>
-                <ResourceLink href="#">📋 Video 1</ResourceLink>
-                <ResourceLink href="#">📋 Video 2</ResourceLink>
-                <ResourceLink href="#">📋 Doc</ResourceLink>
+                <ResourceLink href="https://drive.google.com/file/d/1zkrxWOltuAkak9Y2QDym2RFMUvfmfLQN/view?usp=sharing">
+                  📋 Video 1
+                </ResourceLink>
+                <ResourceLink href="https://drive.google.com/file/d/1Soe1C84BMKDpB6s0DFdNV9ClSKVFUnqp/view?usp=sharing">
+                  📋 Video 2
+                </ResourceLink>
+                <ResourceLink href="https://docs.google.com/document/d/1CDse3gKiQX8uYJV1WDrBiIQauxQgqGD_0Q1GVpp8z2c/edit?tab=t.0">
+                  📋 Doc
+                </ResourceLink>
               </>
             }
           />
@@ -296,8 +423,12 @@ function HashingTable() {
             content="LeetCode Contest"
             resources={
               <>
-                <ResourceLink href="#">📋 Video</ResourceLink>
-                <ResourceLink href="#">📋 Doc</ResourceLink>
+                <ResourceLink href="https://drive.google.com/file/d/146MXN1CgzS9B-STumkk_H6R3Q9YL9opl/view?usp=sharing">
+                  📋 Video
+                </ResourceLink>
+                <ResourceLink href="https://docs.google.com/document/d/14VSupMyjmAMM-vyJUWyxauMSy1QZpSGMto7M6qrSJMY/edit?tab=t.0">
+                  📋 Doc
+                </ResourceLink>
               </>
             }
           />
@@ -386,8 +517,12 @@ function TwoPointerTable() {
             content="Two Pointer Template + Master-class"
             resources={
               <>
-                <ResourceLink href="#">📹 Master Video</ResourceLink>
-                <ResourceLink href="#">📋 Very Imp Doc</ResourceLink>
+                <ResourceLink href="https://drive.google.com/file/d/1mMtY4F4BN9ULqeKYb9AoI_N29TWbVMVS/view?usp=sharing">
+                  📹 Master Video
+                </ResourceLink>
+                <ResourceLink href="https://docs.google.com/document/d/1go_h1BaUdOBMSDcMPbwwnQfsXbzZaKh7R9sc0qnKbQE/edit">
+                  📋 Very Imp Doc
+                </ResourceLink>
               </>
             }
             extra={<ImportanceBadge text="Very Important" />}
@@ -397,8 +532,12 @@ function TwoPointerTable() {
             content="Strong Foundational Video + Google Interview"
             resources={
               <>
-                <ResourceLink href="#">📋 Video 1</ResourceLink>
-                <ResourceLink href="#">📋 Google Interview Video</ResourceLink>
+                <ResourceLink href="https://drive.google.com/file/d/1JCFrbteuAc3gzQ-CQlbtlg2i8_5FJIW4/view?usp=sharing">
+                  📋 Video 1
+                </ResourceLink>
+                <ResourceLink href="https://drive.google.com/file/d/1eZuRFGFix7aqZZj83KEeMvLyruw04I9b/view?usp=sharing">
+                  📋 Google Interview Video
+                </ResourceLink>
               </>
             }
             extra={<Badge label="Google" color="#4ade80" />}
@@ -408,8 +547,12 @@ function TwoPointerTable() {
             content="Microsoft Interview Session"
             resources={
               <>
-                <ResourceLink href="#">📋 Video</ResourceLink>
-                <ResourceLink href="#">📋 Doc</ResourceLink>
+                <ResourceLink href="https://drive.google.com/file/d/1Y8ldbnJNm722U2nCBt5druaqHgGZRm9P/view?usp=sharing">
+                  📋 Video
+                </ResourceLink>
+                <ResourceLink href="https://docs.google.com/document/d/1Yo68_VfR7Vrshq3woEA81scIsq_88Fg-AybOoejL0kE/edit?tab=t.0">
+                  📋 Doc
+                </ResourceLink>
               </>
             }
             extra={<Badge label="Microsoft" color="#60a5fa" />}
@@ -419,8 +562,12 @@ function TwoPointerTable() {
             content="Google SDE-3 Interview Part 1"
             resources={
               <>
-                <ResourceLink href="#">📋 Video</ResourceLink>
-                <ResourceLink href="#">📋 DOC</ResourceLink>
+                <ResourceLink href="https://drive.google.com/file/d/1ZaW2csWFdSKu_onDtE4i3BVLV0pgO5KG/view?usp=sharing">
+                  📋 Video
+                </ResourceLink>
+                <ResourceLink href="https://docs.google.com/document/d/1HJ-uQ5VpiTRoW50S0L6sootpiOR_gJ1k6vHUxAiVgR0/edit?tab=t.0">
+                  📋 DOC
+                </ResourceLink>
               </>
             }
             extra={<Badge label="Google" color="#4ade80" />}
@@ -430,8 +577,12 @@ function TwoPointerTable() {
             content="Google SDE-3 Interview Part 2"
             resources={
               <>
-                <ResourceLink href="#">📋 Video</ResourceLink>
-                <ResourceLink href="#">📋 DOC</ResourceLink>
+                <ResourceLink href="https://drive.google.com/file/d/164J1tJJVTy_zhpdUlLi-IBO0hZvB9s3G/view?usp=sharing">
+                  📋 Video
+                </ResourceLink>
+                <ResourceLink href="https://docs.google.com/document/d/1HJ-uQ5VpiTRoW50S0L6sootpiOR_gJ1k6vHUxAiVgR0/edit?tab=t.0">
+                  📋 DOC
+                </ResourceLink>
               </>
             }
             extra={<Badge label="Google" color="#4ade80" />}
@@ -449,8 +600,12 @@ function BinarySearchTable() {
       l: "Interview Level",
       r: (
         <>
-          <ResourceLink href="#">Video</ResourceLink>
-          <ResourceLink href="#">Doc</ResourceLink>
+          <ResourceLink href="https://drive.google.com/file/d/1bJiRocf0VKFvI8UM5C5ufXyQ4vbdW3sb/view?usp=share_link">
+            Video
+          </ResourceLink>
+          <ResourceLink href="https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/description/">
+            Doc
+          </ResourceLink>
         </>
       ),
     },
@@ -459,9 +614,15 @@ function BinarySearchTable() {
       l: "Interview Level",
       r: (
         <>
-          <ResourceLink href="#">📹 Part 1</ResourceLink>
-          <ResourceLink href="#">📹 Part 2</ResourceLink>
-          <ResourceLink href="#">📋 Doc</ResourceLink>
+          <ResourceLink href="https://drive.google.com/file/d/1HBSa7vQvjEiom_HNyKP3MMi_qe4_5BGg/view?usp=sharing">
+            📹 Part 1
+          </ResourceLink>
+          <ResourceLink href="https://docs.google.com/document/d/123JbiIWAkoyvQLcUE_taisJHspzlXRWi4rfk0hQp3gA/edit">
+            📹 Part 2
+          </ResourceLink>
+          <ResourceLink href="https://drive.google.com/file/d/1Mi8PWBHRnZVOJ8zR0ov-vxqlkcV4YjNV/view?usp=sharing">
+            📋 Doc
+          </ResourceLink>
         </>
       ),
     },
@@ -470,8 +631,12 @@ function BinarySearchTable() {
       l: "Interview Level",
       r: (
         <>
-          <ResourceLink href="#">Video</ResourceLink>
-          <ResourceLink href="#">DOC</ResourceLink>
+          <ResourceLink href="https://drive.google.com/file/d/1KM_RftHl-jgLB2Fhzz7RMJvppnKhAQD_/view?usp=share_link">
+            Video
+          </ResourceLink>
+          <ResourceLink href="https://leetcode.com/problems/search-in-rotated-sorted-array/description/">
+            DOC
+          </ResourceLink>
         </>
       ),
     },
@@ -480,8 +645,12 @@ function BinarySearchTable() {
       l: "Interview Level",
       r: (
         <>
-          <ResourceLink href="#">Video</ResourceLink>
-          <ResourceLink href="#">DOC</ResourceLink>
+          <ResourceLink href="https://drive.google.com/file/d/1KM_RftHl-jgLB2Fhzz7RMJvppnKhAQD_/view?usp=share_link">
+            Video
+          </ResourceLink>
+          <ResourceLink href="https://leetcode.com/problems/single-element-in-a-sorted-array/description/">
+            DOC
+          </ResourceLink>
         </>
       ),
     },
@@ -490,8 +659,12 @@ function BinarySearchTable() {
       l: "Interview Level",
       r: (
         <>
-          <ResourceLink href="#">Video</ResourceLink>
-          <ResourceLink href="#">DOC</ResourceLink>
+          <ResourceLink href="https://drive.google.com/file/d/1KM_RftHl-jgLB2Fhzz7RMJvppnKhAQD_/view?usp=share_link">
+            Video
+          </ResourceLink>
+          <ResourceLink href="https://www.geeksforgeeks.org/n-th-root-number/">
+            DOC
+          </ResourceLink>
         </>
       ),
     },
@@ -500,8 +673,12 @@ function BinarySearchTable() {
       l: "Microsoft OA",
       r: (
         <>
-          <ResourceLink href="#">Video</ResourceLink>
-          <ResourceLink href="#">Doc</ResourceLink>
+          <ResourceLink href="https://drive.google.com/file/d/1lVcgFykqTSuZZ-FcFXwV6sLHCfsuO1ww/view?usp=sharing">
+            Video
+          </ResourceLink>
+          <ResourceLink href="https://docs.google.com/document/d/1iq1JaJbxu8s0AfAjrktgW7W_FvR2G-Z-RJhTmEavIMQ/edit?tab=t.0">
+            Doc
+          </ResourceLink>
         </>
       ),
     },
@@ -543,9 +720,18 @@ function GreedyTable() {
       p: <Badge label="LeetCode" color="#f59e0b" />,
       r: (
         <>
-          <ResourceLink href="#">📋 Video</ResourceLink>
-          <ResourceLink href="#">📋 DOC 0</ResourceLink>
-          <ResourceLink href="#">📋 DOC 1</ResourceLink>
+          <ResourceLink href="https://drive.google.com/file/d/1LIvUf6D41tQbdpTw1DmMwiQ7oQlxBIiD/view?usp=sharing">
+            📋 Video
+          </ResourceLink>
+          <ResourceLink href="https://docs.google.com/document/d/1prpdZz9FSzItzapuye57jtsnzJoGS2uHJdkJ1fC4uy4/edit">
+            📋 Video
+          </ResourceLink>
+          <ResourceLink href="https://docs.google.com/document/d/1prpdZz9FSzItzapuye57jtsnzJoGS2uHJdkJ1fC4uy4/edit">
+            📋 DOC 0
+          </ResourceLink>
+          <ResourceLink href="https://docs.google.com/document/d/1hEP83rT-_my-H_K_rIDTxdxjpETi4Ni3O0c-pBgJ2o0/edit">
+            📋 DOC 1
+          </ResourceLink>
         </>
       ),
     },
@@ -555,8 +741,12 @@ function GreedyTable() {
       p: <Badge label="Codeforces" color="#a78bfa" />,
       r: (
         <>
-          <ResourceLink href="#">📋 Video</ResourceLink>
-          <ResourceLink href="#">📋 DOC</ResourceLink>
+          <ResourceLink href="https://drive.google.com/file/d/1WGZ1_QyhTFS4qHYD9PurOmlpzz7WCTKv/view?usp=sharing">
+            📋 Video
+          </ResourceLink>
+          <ResourceLink href="https://docs.google.com/document/d/1h-3UTy-lnT1wtBLn_YU6WVzgpSuitS2Gh12_lvZOCNE/edit?tab=t.0">
+            📋 DOC
+          </ResourceLink>
         </>
       ),
     },
@@ -566,8 +756,12 @@ function GreedyTable() {
       p: <Badge label="CodeChef" color="#fbbf24" />,
       r: (
         <>
-          <ResourceLink href="#">📋 Video</ResourceLink>
-          <ResourceLink href="#">📋 DOC</ResourceLink>
+          <ResourceLink href="https://drive.google.com/file/d/1WGZ1_QyhTFS4qHYD9PurOmlpzz7WCTKv/view?usp=sharing">
+            📋 Video
+          </ResourceLink>
+          <ResourceLink href="https://docs.google.com/document/d/1h-3UTy-lnT1wtBLn_YU6WVzgpSuitS2Gh12_lvZOCNE/edit?tab=t.0">
+            📋 DOC
+          </ResourceLink>
         </>
       ),
     },
@@ -577,8 +771,12 @@ function GreedyTable() {
       p: <Badge label="IBM" color="#818cf8" />,
       r: (
         <>
-          <ResourceLink href="#">📋 Video</ResourceLink>
-          <ResourceLink href="#">📋 DOC</ResourceLink>
+          <ResourceLink href="https://drive.google.com/file/d/10SqF88hqJ2-3XoGQ7Nc9svrOt0kaHAc0/view?usp=sharing">
+            📋 Video
+          </ResourceLink>
+          <ResourceLink href="https://docs.google.com/document/d/1G_lYkIlrHg-Jt9P2o5Xdhk80CZu2EexwbJcOoB_w3BI/edit?tab=t.0">
+            📋 DOC
+          </ResourceLink>
         </>
       ),
     },
@@ -588,8 +786,12 @@ function GreedyTable() {
       p: <Badge label="CodeChef" color="#fbbf24" />,
       r: (
         <>
-          <ResourceLink href="#">📋 Video</ResourceLink>
-          <ResourceLink href="#">📋 DOC</ResourceLink>
+          <ResourceLink href="https://drive.google.com/file/d/1Z6iViVKtESmlkYmPOsQz5Bx-J5YWVDpa/view">
+            📋 Video
+          </ResourceLink>
+          <ResourceLink href="https://docs.google.com/document/d/1ycX0Br8FYMIbQTp6thDgem6uDmy9Vw2IdwvtfjX0eqg/edit">
+            📋 DOC
+          </ResourceLink>
         </>
       ),
     },
@@ -599,8 +801,12 @@ function GreedyTable() {
       p: <Badge label="Goldman Sachs" color="#60a5fa" />,
       r: (
         <>
-          <ResourceLink href="#">📋 Video</ResourceLink>
-          <ResourceLink href="#">📋 DOC</ResourceLink>
+          <ResourceLink href="https://drive.google.com/file/d/1NxZYLtzjHnWXvCbqRCPrg4Vyd1siF0l0/view?usp=sharing">
+            📋 Video
+          </ResourceLink>
+          <ResourceLink href="https://docs.google.com/document/d/12q07uL4qI9Uhdw11WVbMVcXIBtCgzUgLeUg1rxCT8HA/edit?tab=t.0">
+            📋 DOC
+          </ResourceLink>
         </>
       ),
     },
@@ -610,8 +816,12 @@ function GreedyTable() {
       p: <Badge label="Atlassian 70LPA" color="#34d399" />,
       r: (
         <>
-          <ResourceLink href="#">📋 Video</ResourceLink>
-          <ResourceLink href="#">📋 DOC</ResourceLink>
+          <ResourceLink href="https://drive.google.com/file/d/1cRbAWnXXMKB0eaUhif7wJWQqswKwjdjN/view?usp=sharing">
+            📋 Video
+          </ResourceLink>
+          <ResourceLink href="https://docs.google.com/document/d/1_ncYXR4xSTgDpOnAu1_u2LfHl8hOw-Xejn23W2rlKbY/edit?tab=t.0">
+            📋 DOC
+          </ResourceLink>
         </>
       ),
     },
@@ -696,8 +906,10 @@ function DPTable() {
       l: <Badge label="Interview Level" color="#f97316" />,
       r: (
         <>
-          <ResourceLink href="#">Video</ResourceLink>
-          <ResourceLink href="#">DOC</ResourceLink>
+          <ResourceLink href="https://youtu.be/odW68OcWI10">Video</ResourceLink>
+          <ResourceLink href="https://www.desiqna.in/dynamic-programming">
+            DOC
+          </ResourceLink>
         </>
       ),
     },
@@ -706,8 +918,8 @@ function DPTable() {
       l: <Badge label="Interview Level" color="#f97316" />,
       r: (
         <>
-          <ResourceLink href="#">Video</ResourceLink>
-          <ResourceLink href="#">DOC</ResourceLink>
+          <ResourceLink href="https://youtu.be/67UUBEWhxQA">Video</ResourceLink>
+          <ResourceLink href="https://www.desiqna.in/dp2">DOC</ResourceLink>
         </>
       ),
     },
@@ -716,8 +928,10 @@ function DPTable() {
       l: <Badge label="Interview Level" color="#f97316" />,
       r: (
         <>
-          <ResourceLink href="#">Video</ResourceLink>
-          <ResourceLink href="#">DOC</ResourceLink>
+          <ResourceLink href="https://drive.google.com/file/d/1aVaVeGDUlkinRW7Z1BTVY59t_exe70iA/view?usp=sharing">
+            Video
+          </ResourceLink>
+          <ResourceLink href="https://www.desiqna.in/dp3">DOC</ResourceLink>
         </>
       ),
     },
@@ -726,10 +940,18 @@ function DPTable() {
       l: <Badge label="AtCoder DP" color="#a78bfa" />,
       r: (
         <>
-          <ResourceLink href="#">Video</ResourceLink>
-          <ResourceLink href="#">DOC</ResourceLink>
-          <ResourceLink href="#">AtCoder DP 1</ResourceLink>
-          <ResourceLink href="#">AtCoder DP 2</ResourceLink>
+          <ResourceLink href="https://drive.google.com/file/d/1KKEwaoTZxjRbHNqBMSiK1NsYdN_4ZZ7e/view?usp=sharing">
+            Video
+          </ResourceLink>
+          <ResourceLink href="https://docs.google.com/document/d/1k5Nbylqu-yXSlNpeVStlbTrfil75Wnq3VwaVVRoQMy0/edit?usp=sharing">
+            DOC
+          </ResourceLink>
+          <ResourceLink href="https://atcoder.jp/contests/dp/tasks/dp_a">
+            AtCoder DP 1
+          </ResourceLink>
+          <ResourceLink href="https://atcoder.jp/contests/dp/tasks/dp_b">
+            AtCoder DP 2
+          </ResourceLink>
         </>
       ),
     },
@@ -738,8 +960,12 @@ function DPTable() {
       l: <Badge label="PayPal OA" color="#60a5fa" />,
       r: (
         <>
-          <ResourceLink href="#">Video</ResourceLink>
-          <ResourceLink href="#">DOC</ResourceLink>
+          <ResourceLink href="https://drive.google.com/file/d/1avmrLmG5iAVLJJZ_H1tIhU5nyIvzLLao/view?usp=sharing">
+            Video
+          </ResourceLink>
+          <ResourceLink href="https://docs.google.com/document/d/1tCEKs5DZtb-hILaYNgMNN8SSQBcQLWm33g2YDljrQBg/edit?tab=t.0">
+            DOC
+          </ResourceLink>
         </>
       ),
     },
@@ -780,23 +1006,35 @@ function GraphTable() {
       c: "Intro to graphs",
       r: (
         <>
-          <ResourceLink href="#">Video</ResourceLink>
-          <ResourceLink href="#">DOC</ResourceLink>
+          <ResourceLink href="https://drive.google.com/file/d/11cqh-AFLRMfWIGc0y455p20z0t15Vezi/view?usp=sharing">
+            Video
+          </ResourceLink>
+          <ResourceLink href="https://docs.google.com/document/d/1HMvZeEp4FoziI6KDHbG8mh5tXISIvKIvH5q1HxLUjHE/edit">
+            DOC
+          </ResourceLink>
         </>
       ),
     },
     {
       s: "Session 1",
       c: "BFS and its applications",
-      r: <ResourceLink href="#">✅ Video</ResourceLink>,
+      r: (
+        <ResourceLink href="https://www.youtube.com/watch?v=k_h9uTLmsTo&list=PLIp-xrYmLruL4YhgTvj96hPRysCD5rm97&ab_channel=KumarK">
+          ✅ Video
+        </ResourceLink>
+      ),
     },
     {
       s: "Session 2",
       c: "BFS — Graph OA level (Thoughts + Intuition)",
       r: (
         <>
-          <ResourceLink href="#">✅ Video</ResourceLink>
-          <ResourceLink href="#">DOC</ResourceLink>
+          <ResourceLink href="https://www.youtube.com/watch?v=k_h9uTLmsTo&list=PLIp-xrYmLruL4YhgTvj96hPRysCD5rm97&ab_channel=KumarK">
+            ✅ Video
+          </ResourceLink>
+          <ResourceLink href="https://docs.google.com/document/d/1y49-iZPEAEOVJabDJ0dvdXLDDn_cdT8Db83xU_ezyNs/edit?tab=t.0">
+            DOC
+          </ResourceLink>
         </>
       ),
     },
@@ -805,8 +1043,12 @@ function GraphTable() {
       c: "BFS — Intermediate Level Trick + Understanding",
       r: (
         <>
-          <ResourceLink href="#">✅ Video</ResourceLink>
-          <ResourceLink href="#">DOC</ResourceLink>
+          <ResourceLink href="https://drive.google.com/file/d/1jYgYAG2cXkk2c-xy02IgnKwJTakAlBqX/view">
+            ✅ Video
+          </ResourceLink>
+          <ResourceLink href="https://docs.google.com/document/d/1y49-iZPEAEOVJabDJ0dvdXLDDn_cdT8Db83xU_ezyNs/edit?tab=t.0">
+            DOC
+          </ResourceLink>
         </>
       ),
     },
@@ -815,8 +1057,12 @@ function GraphTable() {
       c: "BFS — Uber SDE Interview 2025",
       r: (
         <>
-          <ResourceLink href="#">✅ Video</ResourceLink>
-          <ResourceLink href="#">DOC</ResourceLink>
+          <ResourceLink href="https://drive.google.com/file/d/1AsUe4wmxd4XvZ2ldeiJkLHfGoJ98R1Bv/view">
+            ✅ Video
+          </ResourceLink>
+          <ResourceLink href="https://docs.google.com/document/d/1y49-iZPEAEOVJabDJ0dvdXLDDn_cdT8Db83xU_ezyNs/edit?tab=t.0">
+            DOC
+          </ResourceLink>
         </>
       ),
     },
@@ -825,8 +1071,12 @@ function GraphTable() {
       c: "DFS Master Session (Thoughts + Process + Intuition)",
       r: (
         <>
-          <ResourceLink href="#">✅ Video</ResourceLink>
-          <ResourceLink href="#">DOC</ResourceLink>
+          <ResourceLink href="https://drive.google.com/file/d/12khoQ6f2H1YLISrKdE2eyehpJwb1BHkF/view?usp=sharing">
+            ✅ Video
+          </ResourceLink>
+          <ResourceLink href="https://docs.google.com/document/d/178xP-4NLVg-160QyPYxbdVzLjcCow3X46fdd83HT_H0/edit">
+            DOC
+          </ResourceLink>
         </>
       ),
     },
@@ -867,8 +1117,12 @@ function MathTable() {
       c: "Fundamental concepts",
       r: (
         <>
-          <ResourceLink href="#">📋 Video</ResourceLink>
-          <ResourceLink href="#">📋 DOC</ResourceLink>
+          <ResourceLink href="https://drive.google.com/file/d/1BK41aHry_nU_RxI_U9xSUKOMuc7BioAH/view?usp=sharing">
+            📋 Video
+          </ResourceLink>
+          <ResourceLink href="https://docs.google.com/document/d/1H8obAFY6lkBeJus2cBe0FYtvoXgvyGmdhgaovr1N28A/edit">
+            📋 DOC
+          </ResourceLink>
         </>
       ),
     },
@@ -877,8 +1131,12 @@ function MathTable() {
       c: "Foundational Concept",
       r: (
         <>
-          <ResourceLink href="#">📋 Video</ResourceLink>
-          <ResourceLink href="#">📋 DOC</ResourceLink>
+          <ResourceLink href="https://drive.google.com/file/d/1YqKzjNopb-94Wqm2ZaSMVd-eT4Jj3vkP/view?usp=sharing">
+            📋 Video
+          </ResourceLink>
+          <ResourceLink href="https://docs.google.com/document/d/1NvETpx6f5WlgjPsthyiYgnLOq5hm10j31H0CxOp0b80/edit?tab=t.0">
+            📋 DOC
+          </ResourceLink>
         </>
       ),
     },
@@ -887,8 +1145,12 @@ function MathTable() {
       c: "Intro 0",
       r: (
         <>
-          <ResourceLink href="#">📋 Video</ResourceLink>
-          <ResourceLink href="#">📋 DOC</ResourceLink>
+          <ResourceLink href="https://drive.google.com/file/d/1ThcGpV6DVjrXG_J5sgsFKw6CN4a5FFkV/view?usp=sharing">
+            📋 Video
+          </ResourceLink>
+          <ResourceLink href="https://docs.google.com/document/d/15ZFZuxIGZgwbrT9NeBfUT00c-6KMjpuN-M7JRl8HFVI/edit?usp=sharing">
+            📋 DOC
+          </ResourceLink>
         </>
       ),
     },
