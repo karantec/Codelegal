@@ -1,5 +1,6 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import SuccessVideos from "./SuccessVideo";
+import FeaturedBanner from "./FeatureBanner";
 
 // ─── Shared styles ────────────────────────────────────────────────────────────
 const thStyle = {
@@ -302,6 +303,64 @@ function HashingTable() {
           />
         </tbody>
       </table>
+    </div>
+  );
+}
+
+function BannerImages() {
+  return (
+    <div
+      style={{
+        width: "100%",
+        padding: "0 24px",
+        marginTop: "32px",
+        marginBottom: "32px",
+      }}
+    >
+      <div style={{ display: "flex", flexDirection: "column", gap: "16px" }}>
+        <img
+          src="https://res.cloudinary.com/dgfxvpxbr/image/upload/v1771404297/2_fahrwp.jpg"
+          alt="Banner 1"
+          style={{
+            width: "100%",
+            height: "500px",
+            objectFit: "cover",
+            borderRadius: "12px",
+            border: "1px solid rgba(59,130,246,0.2)",
+            transition: "all 0.3s ease",
+            cursor: "pointer",
+          }}
+          onMouseEnter={(e) => {
+            e.currentTarget.style.borderColor = "rgba(59,130,246,0.4)";
+            e.currentTarget.style.transform = "scale(1.02)";
+          }}
+          onMouseLeave={(e) => {
+            e.currentTarget.style.borderColor = "rgba(59,130,246,0.2)";
+            e.currentTarget.style.transform = "scale(1)";
+          }}
+        />
+        <img
+          src="https://res.cloudinary.com/dgfxvpxbr/image/upload/v1771404297/1_smkovn.jpg"
+          alt="Banner 2"
+          style={{
+            width: "100%",
+            height: "500px",
+            objectFit: "cover",
+            borderRadius: "12px",
+            border: "1px solid rgba(59,130,246,0.2)",
+            transition: "all 0.3s ease",
+            cursor: "pointer",
+          }}
+          onMouseEnter={(e) => {
+            e.currentTarget.style.borderColor = "rgba(59,130,246,0.4)";
+            e.currentTarget.style.transform = "scale(1.02)";
+          }}
+          onMouseLeave={(e) => {
+            e.currentTarget.style.borderColor = "rgba(59,130,246,0.2)";
+            e.currentTarget.style.transform = "scale(1)";
+          }}
+        />
+      </div>
     </div>
   );
 }
@@ -1016,7 +1075,7 @@ function TreesTable() {
   );
 }
 
-// ─── Section metadata (Table refs safe now — all functions declared above) ────
+// ─── Section metadata ─────────────────────────────────────────────────────
 const SECTION_META = [
   {
     key: "hashing",
@@ -1570,47 +1629,38 @@ export default function DSAStudyPlanner() {
         {/* ── Accordion sections ── */}
         {SECTION_META.map((meta) => {
           const TableComponent = meta.Table;
+
           return (
-            <div
-              key={meta.key}
-              id={`section-${meta.key}`}
-              style={{
-                marginBottom: "16px",
-                borderRadius: "16px",
-                background: "rgba(15,23,42,0.8)",
-                border: `1px solid ${openSections[meta.key] ? meta.accent + "35" : "rgba(255,255,255,0.07)"}`,
-                overflow: "hidden",
-                backdropFilter: "blur(12px)",
-                transition: "border-color 0.3s, box-shadow 0.3s",
-                boxShadow: openSections[meta.key]
-                  ? `0 0 40px ${meta.glow}, 0 4px 24px rgba(0,0,0,0.3)`
-                  : "0 2px 12px rgba(0,0,0,0.2)",
-              }}
-            >
-              <SectionHeader
-                meta={meta}
-                isOpen={openSections[meta.key]}
-                onToggle={toggleSection}
-              />
-              {openSections[meta.key] && (
-                <div style={{ animation: "fadeSlide 0.25s ease" }}>
-                  <TableComponent />
-                </div>
-              )}
-            </div>
+            <React.Fragment key={meta.key}>
+              <div
+                id={`section-${meta.key}`}
+                style={{
+                  marginBottom: "16px",
+                  borderRadius: "16px",
+                  background: "rgba(15,23,42,0.8)",
+                  border: `1px solid ${
+                    openSections[meta.key]
+                      ? meta.accent + "35"
+                      : "rgba(255,255,255,0.07)"
+                  }`,
+                  overflow: "hidden",
+                  backdropFilter: "blur(12px)",
+                }}
+              >
+                <SectionHeader
+                  meta={meta}
+                  isOpen={openSections[meta.key]}
+                  onToggle={toggleSection}
+                />
+                {openSections[meta.key] && <TableComponent />}
+              </div>
+
+              {/* 🔥 Insert Banner After Hashing Section */}
+              {meta.key === "hashing" && <BannerImages />}
+            </React.Fragment>
           );
         })}
       </div>
-
-      <style>{`
-        @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800;900&family=DM+Mono:wght@400;500;700&display=swap');
-        @keyframes fadeSlide { from{opacity:0;transform:translateY(-8px)} to{opacity:1;transform:translateY(0)} }
-        *{box-sizing:border-box}
-        ::-webkit-scrollbar{width:6px;height:6px}
-        ::-webkit-scrollbar-track{background:rgba(255,255,255,0.02)}
-        ::-webkit-scrollbar-thumb{background:rgba(99,102,241,0.3);border-radius:3px}
-        ::-webkit-scrollbar-thumb:hover{background:rgba(99,102,241,0.5)}
-      `}</style>
     </div>
   );
 }
